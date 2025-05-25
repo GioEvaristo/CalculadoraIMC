@@ -1,10 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View, TextInput, Button, Image, ImageBackground, SafeAreaView} from 'react-native';
+import { StyleSheet, Text, View, TextInput, Button, Image} from 'react-native';
 import {useState} from 'react';
 
 export default function App() {
   const logo = require('./assets/imc_logo.png');
-  const background = require('./assets/icon.png');
 
   const [altura, setAltura] = useState('');
   const [peso, setPeso] = useState('');
